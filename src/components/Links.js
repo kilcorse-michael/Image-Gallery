@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav } from 'react-bootstrap';
 
 
-
+//Component that handles linking to the various routes using React Bootstrap
 function Links(){
   return(
   <div>
