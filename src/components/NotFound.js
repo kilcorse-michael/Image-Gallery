@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+//componenet for when there is a 404
 function NotFound(){
 
   return(
