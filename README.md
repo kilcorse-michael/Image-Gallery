@@ -1,3 +1,8 @@
+This was made for the Team TreeHouse FullStack JavaScript Techdegree Unit 7. I am going for an Exceeds
+Expectations grade.
+
+Additional libraries/frameworks I use are React-Bootstrap for styling and Axios for data fetching
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
