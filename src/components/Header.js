@@ -2,7 +2,7 @@ import React from 'react';
 import SearchForm from './SearchForm';
 import Links from './Links';
 
-
+//Component in where the title, search, and navigation bar is stored. Also handles passing props to the "SearchForm" componenet
 function Header(props){
   return (
     <div>
