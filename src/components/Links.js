@@ -1,27 +1,19 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 
 //Component that handles linking to the various routes using React Bootstrap
 function Links(){
   return(
   <div>
-    <Nav className="justify-content-center" activeKey="/home">
-      <Nav.Item>
-        <Nav.Link href="/">Home</Nav.Link>
-      </Nav.Item>
-    </Nav>
-    <Nav className="justify-content-center" activeKey="/home">
-        <Nav.Item>
-          <Nav.Link href="/cats">Cats</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="/golf">Golf</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link href="/space">Space</Nav.Link>
-        </Nav.Item>
-    </Nav>
+    <span>
+      <NavLink to="/">Home</NavLink>
+    </span>
+    <br/>
+
+      <NavLink to="/cats"> Cats </NavLink>
+      <NavLink to="/golf"> Golf </NavLink>
+      <NavLink to="/space"> Space </NavLink>
   </div>
 
   );
